@@ -12,9 +12,8 @@ the 1st dimension is the batch
 the 2nd dimension is the number of time steps
 the 3rd dimension is the number of features
 
-# this notebook is a simplified version of 12.time-series-demand_prediction
-# the normalization is skipped in order to compare the initial dataframe 
-# and the X_train variable that will be fed into LSTM
-#
-# The point I want to make is that the cnt column also goes into X_train
+this notebook is a simplified version of 12.time-series-demand_prediction
+the normalization is skipped in order to compare the initial dataframe 
+and the X_train variable that will be fed into LSTM
+The point I want to make is that the cnt column also goes into X_train
 which I believe is wrong
